@@ -1,0 +1,8 @@
+swap two numbers : use xor
+check if ith is set or not : left shift or right shift
+set ith bit : left shift 1
+clear ith bit : left shift 1 then take not
+toggle ith bit : ;eft shift 1 then xor
+remove last set bit : n & (n-1)
+count no of set bits : 1. use loop with right shift 2. remove last set bit
+check if no is power of 2 or not : return ! n & (n-1)
